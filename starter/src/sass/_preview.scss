@@ -84,7 +84,7 @@
   }
 
   &__user-generated {
-    background-color: darken($color-grey-light-2, 2%);
+    background-color: color.scale($color-grey-light-2, $lightness: -2.125%);
 
     display: flex;
     align-items: center;
